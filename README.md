@@ -1,4 +1,5 @@
 🛡️ PyFW – Mini Firewall Tool (Python + iptables)
+
 📌 About
 
 PyFW is a lightweight CLI-based firewall management tool written in Python that works as a frontend for iptables, similar to UFW.
@@ -49,17 +50,22 @@ sudo python3 pyfw.py
 Enable / Disable
 
 sudo python3 pyfw.py enable
+
 sudo python3 pyfw.py disable
 
 Allow / Deny
 
 sudo python3 pyfw.py allow 22 tcp
+
 sudo python3 pyfw.py deny 80 tcp
+
 sudo python3 pyfw.py allow 53 udp
+
 sudo python3 pyfw.py allow all icmp
 
 Status / Reset
 
 sudo python3 pyfw.py status
+
 sudo python3 pyfw.py reset
 
